@@ -5,12 +5,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- endbuild -->
+    <title>Survey Form</title>
 </head>
 
 <body>
+    <div>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        <form id="survey-form">
+            <label id="name-label">Name</label>
+            <input id="name" type="text" placeholder="Enter your name" />
 
-    <h1>Hello World, we are software developers!</h1>
+
+            <label d="email-label">Email</label>
+            <input id="email" placeholder="Enter your email" />
+
+
+            <label id="number-label">Age (optional)</label>
+            <input id="email" placeholder="Enter your email" />
+
+
+            <label>Which option best describes your current role?</label>
+
+
+
+
+            <label>Would you recommend freeCodeCamp to a friend?</label>
+
+
+
+            <label>What is your favorite feature of freeCodeCamp?</label>
+
+
+
+            <label>What would you like to see improved? (check all that apply)</label>
+
+
+            <label>Any comments or suggestions?</label>
+            <textarea placeholder="Enter your comment here..."></textarea>
+
+
+            <button id="submit">submit</button>
+
+
+        </form>
+    </div>
+
+
 </body>
 
 </html>
